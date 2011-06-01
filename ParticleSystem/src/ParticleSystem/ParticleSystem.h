@@ -16,14 +16,11 @@
 
 class ParticleSystem {
 public:
-	ParticleSystem();
-	
+
 	void update();
 	void draw();
+	
 	void addParticle(ofxBox2d _box2d, float _posX, float _posY, float _radius, float _timer);
-	bool dead();
-    
-    
     vector <Particle> particles;
 
 	

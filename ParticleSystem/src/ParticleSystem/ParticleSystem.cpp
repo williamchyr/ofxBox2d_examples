@@ -8,11 +8,6 @@
 
 #include "ParticleSystem.h"
 
-
-ParticleSystem::ParticleSystem() {
-	
-}
-
 void ParticleSystem::update() {
 	for(int i=0; i < particles.size(); i++) {
 		particles[i].update();
@@ -53,11 +48,3 @@ void ParticleSystem::addParticle(ofxBox2d _box2d, float _posX, float _posY, floa
     
 }
 
-
-bool ParticleSystem::dead() {
-	if(particles.size() == 0) {
-		return true;
-	} else {
-		return false;
-	}
-}
