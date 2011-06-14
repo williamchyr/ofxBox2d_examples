@@ -17,7 +17,7 @@ void testApp::update(){
     box2d.update();
     ps.update();
     
-    for (int i = 0; i < 5; i++ ) {
+    for (int i = 0; i < 7; i++ ) {
         
         //adding particles to the particle system. 
         //The inputs are box2d world, x position, y  position, radius, lifespan. 
